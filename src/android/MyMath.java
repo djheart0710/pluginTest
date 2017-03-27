@@ -37,7 +37,7 @@ public class MyMath extends CordovaPlugin {
         }
     }
 
-    private void plus(int A, int B, CallbackContext callbackContext){
+    private void minus(int A, int B, CallbackContext callbackContext){
         int ret = A - B;
         if(ret > 0){
             callbackContext.success(ret);
