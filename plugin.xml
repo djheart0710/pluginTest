@@ -5,7 +5,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>MyMath</name>
     <js-module name="MyMath" src="www/MyMath.js">
-        <clobbers target="cordova.plugins.MyMath" />
+        <clobbers target="MyMath" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
